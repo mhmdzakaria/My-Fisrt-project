@@ -1,0 +1,346 @@
+/*------------- (1) Start general -------------*/
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+/*!---------------- End general ----------------*/
+
+
+/*------------- (2) Start body -------------*/
+
+body
+{
+	font-family: 'Lato', sans-serif;
+	
+}
+
+/*---------------- End body ----------------*/
+
+
+/*------------- (3) Start Navbar -------------*/
+
+#nav-bar
+{
+	position: sticky;
+	top: 0px;
+	z-index: 9999999
+	
+}
+.navbar
+{
+	background: #34495e;
+	padding: 10px;
+}
+.navbar-brand
+{
+	height: 40px;
+	padding-left: 20px;
+	color: white !important;
+
+}
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+.navbar-nav li .nav-link
+{
+	color: white !important;
+	font-weight: 500;
+	float: right;
+	text-align: left;
+}
+.fa-bars
+{
+	color: white;
+}
+
+/*---------------- End Navbar ----------------*/
+
+/*---------------- (4)Start banner ----------------*/
+
+#banner
+{
+	background: #273c75;
+	padding-top: 5%;
+	color: white;
+
+}
+#banner h1
+{
+
+margin: 50px auto;
+font-size: 3em;
+text-transform: uppercase;
+}
+#banner p
+{
+	font-size: ;
+
+}
+#banner .play-btn
+{
+
+	width: 20%;
+}
+#banner .play-btn:hover
+{
+	transform: scale(1.2,1.2);
+	transition: all 1s ease;
+}
+#banner a
+{
+	text-decoration: none;
+	color: white;
+}
+#banner .bottom-img
+{
+	width: 100%;
+	height: 50px;
+}
+
+/*---------------- End banner ----------------*/
+
+/*----------------(5)Start services ----------------*/
+
+#services
+{
+	margin-top: 70px;
+	margin-bottom: 50px;
+}
+#services h1
+{
+	margin-bottom: 80px;
+	text-transform: capitalize;
+	color: white;
+	font-weight: bold;
+	background: #273c75;
+	width: 500px;
+	margin: 60px auto;
+}
+#services .card:hover
+{
+	transform: scale(1.2,1.2);
+	transition: all 1s ease;
+}
+#services .btn-primary
+{
+	margin-top: 50px;
+	background: #273C75;
+	border-radius: 25px;
+	color: white;
+	border: none;
+	transition: all 1s ease;
+}
+#services .btn-primary:hover
+{
+	transform: scale(1.2,1.2);
+	transition: all 1s ease;
+
+}
+
+/*---------------- End services ----------------*/
+
+/*---------------- (6)Start about-us ----------------*/
+
+#about-us
+{
+	margin-top: 30px;
+	padding-bottom: 30px;
+	color: white;
+
+}
+
+#about-us h1
+{
+	text-transform: uppercase;
+	padding: 20px;
+	color: white;
+	background: #273c75;
+	width: 500px;
+	margin-bottom: 50px;
+	margin-left: 35%;
+
+	
+}
+
+#about-us .part-one
+{
+	background: #273c75;
+	padding: 40px 60px;
+	
+}
+#about-us .part-one h2
+{
+	font-size: 2em;
+	
+}
+
+
+/*---------------- End about-us ----------------*/
+
+/*---------------- (7)Start testimonials ----------------*/
+
+#testimonials
+{
+	margin: 50px auto;
+}
+#testimonials h1
+{
+	color: white;
+	text-transform: capitalize;
+	margin-bottom: 60px;
+	background: #273C75;
+	width: 400px;
+}
+.testimonials
+{
+	border-left: 4px solid #273C75;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.testimonials:hover
+{
+	transform: scale(1.2,1.2);
+	transition: all 1s ease;
+}
+
+
+
+/*---------------- End testimonials ----------------*/
+
+/*----------------(8)Start about-us2 ----------------*/
+
+#about-us2
+{
+	margin-top: 30px;
+	padding-bottom: 30px;
+	color: white;
+
+}
+
+#about-us2 h1
+{
+	text-transform: uppercase;
+	color: white;
+	background: #273c75;
+	width: 500px;
+	
+	margin: 50px auto;
+	
+}
+
+#about-us2 .part-two
+{
+	background: #273c75;
+	padding: 40px 60px;
+	
+}
+#about-us2 .part-two h2
+{
+	font-size: 2em;
+	
+}
+
+
+/*---------------- End about-us2 ----------------*/
+
+/*---------------- (9)Start social-media ----------------*/
+
+#social-media
+{
+	margin: 100px auto;
+
+}
+#social-media h1
+{
+	color: white;
+	background: #273c75;
+	font-weight: bold;
+	text-transform: uppercase;
+	width: 500px;
+	margin: auto;
+	margin-bottom: 50px;
+	
+
+}
+#social-media .social-icons
+{
+	margin: 50px auto;
+
+}
+.fa-youtube
+{
+	color: #ff0000;
+}
+.fa-facebook
+{
+	color: #3b5998;
+
+}
+.fa-twitter
+{
+	color: #1da1f2;
+}
+.fa-google-plus-g
+{
+	color: #dd4b39
+}
+.fa-instagram
+{
+	color: #c13584
+}
+.fa-linkedin
+{
+	color: #0077b5
+}
+.fab
+{
+	margin: 30px 15px;
+}
+.fab:hover
+{
+	transform: scale(1.5,1.5);
+	transition: all 1s ease;
+}
+
+/*---------------- End social-media ----------------*/
+
+/*---------------- (10)Start footer ----------------*/
+
+#footer
+{
+	background: #34495e;
+	color: white;
+}
+#footer .container
+{
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+#footer p
+{
+	text-transform: capitalize;
+}
+#footer .footer-img
+{
+	width: 40%
+}
+#footer .fas
+{
+	margin-right: 15px;
+}
+#footer .btn
+{
+	margin-top: 20px;
+	background: #273c75;
+	border: none;
+	outline: none;
+
+}
+
+
+/*---------------- End footer ----------------*/
